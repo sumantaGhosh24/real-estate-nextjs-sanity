@@ -134,3 +134,10 @@
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+.bg-image {
+  background-image: url("https://cdn.sanity.io/images/yburxwic/production/cae953c799f84eeff0e1f908e33d9f7ad74da149-6912x3456.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}

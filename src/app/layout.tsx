@@ -1,4 +1,5 @@
 import "./globals.css";
+
 import type {Metadata} from "next";
 import {Inter as FontSans} from "next/font/google";
 
@@ -6,7 +7,6 @@ import {cn} from "@/lib/utils";
 
 import {ThemeProvider} from "./_components/theme-provider";
 import PrimaryColorProvider from "./_components/primary-provider";
-import Header from "./_components/header";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -41,7 +41,6 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <PrimaryColorProvider>
-            <Header />
             <main>{children}</main>
           </PrimaryColorProvider>
         </ThemeProvider>
